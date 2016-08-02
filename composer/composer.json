@@ -1,0 +1,20 @@
+{
+    "name": "samples",
+    "license": "MIT",
+    "type": "project",
+    "description": "The composer samples",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "monolog/monolog": "1.9.*@dev"
+    },
+    "scripts": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+    }
+}
